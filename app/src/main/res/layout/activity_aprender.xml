@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AprenderActivity">
+
+    <TextView
+        android:id="@+id/tituloAprender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APRENDER F1"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subtituloAprender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elegí qué querés aprender"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tituloAprender" />
+
+    <Button
+        android:id="@+id/btnFundamentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FUNDAMENTOS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/subtituloAprender" />
+
+    <Button
+        android:id="@+id/btnAuto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EL AUTO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnFundamentos" />
+
+    <Button
+        android:id="@+id/btnNeumaticos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEUMÁTICOS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnAuto" />
+
+    <Button
+        android:id="@+id/btnEstrategia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ESTRATEGIA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnNeumaticos" />
+
+    <Button
+        android:id="@+id/btnReglas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGLAS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnEstrategia" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
